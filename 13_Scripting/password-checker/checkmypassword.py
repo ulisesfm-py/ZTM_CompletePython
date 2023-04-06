@@ -49,7 +49,7 @@ def main(args):
                 f'{password} was found {count} times. It would be wise to change it.')
         else:
             print('That\'s such a safe password, keep it up man')
-    return 'check done!'
+    return print('check done!')
 
 
 if __name__ == '__main__':
