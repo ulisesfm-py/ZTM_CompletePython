@@ -25,5 +25,3 @@ links = soup.select('.titleline')
 # we can keep selecting more specific things by using .get()
 # we use votes[0] because it is a list, and we want the first item
 print(votes[0].get('id'))
-
-print(votes[0].value())
